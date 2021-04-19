@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  margin: 12px 28px;
+  outline: none;
+  padding: 12px 28px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #33334d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.organizer {
+  margin-left: 160px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.options {
+  margin-left: 175px;
+}
+
+.main {
+  display: inline-grid;
+}
+
+.Die {
+  font-size: 10cm;
+  padding: 0.25cm;
+}
+
+.Red {
+  color: #cc0000;
+}
+
+.Margent {
+  color: #9933ff;
+}
+
+.Blue {
+  color: #3333ff;
+}
+
+.Green {
+  color: #009933;
+}
+
+.Yellow {
+  color: #ffcc00;
+}
+
+.Orange {
+  color: #ff9900;
+}
+
+.shaking {
+  animation-name: wobble;
+  animation-duration: 1s;
+}
+
+.buttonRed {
+  border: 4px solid #cc0000;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  outline: none;
+  padding: 16px;
+}
+
+.buttonMargent {
+  border: 4px solid #9933ff;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  outline: none;
+  padding: 16px;
+}
+
+.buttonBlue {
+  border: 4px solid #3333ff;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  outline: none;
+  padding: 16px;
+}
+
+.buttonGreen {
+  border: 4px solid #009933;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  outline: none;
+  padding: 16px;
+}
+
+.buttonYellow {
+  border: 4px solid #ffcc00;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  outline: none;
+  padding: 16px;
+}
+
+.buttonOrange {
+  border: 4px solid #ff9900;
+  border-radius: 25px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  outline: none;
+  padding: 16px;
+}
+
+.colorRed {
+  background-color: #cc0000;
+}
+
+.colorMargent {
+  background-color: #9933ff;
+}
+
+.colorBlue {
+  background-color: #3333ff;
+}
+
+.colorGreen {
+  background-color: #009933;
+}
+
+.colorYellow {
+  background-color: #ffcc00;
+}
+
+.colorOrange {
+  background-color: #ff9900;
+}
+
+@keyframes wobble {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
