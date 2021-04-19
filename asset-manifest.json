@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dado/static/css/main.bfc48e9b.chunk.css",
+    "main.js": "/dado/static/js/main.e982c68f.chunk.js",
+    "main.js.map": "/dado/static/js/main.e982c68f.chunk.js.map",
+    "runtime-main.js": "/dado/static/js/runtime-main.db9c0a97.js",
+    "runtime-main.js.map": "/dado/static/js/runtime-main.db9c0a97.js.map",
+    "static/js/2.dc205b8e.chunk.js": "/dado/static/js/2.dc205b8e.chunk.js",
+    "static/js/2.dc205b8e.chunk.js.map": "/dado/static/js/2.dc205b8e.chunk.js.map",
+    "index.html": "/dado/index.html",
+    "static/css/main.bfc48e9b.chunk.css.map": "/dado/static/css/main.bfc48e9b.chunk.css.map",
+    "static/js/2.dc205b8e.chunk.js.LICENSE.txt": "/dado/static/js/2.dc205b8e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db9c0a97.js",
+    "static/js/2.dc205b8e.chunk.js",
+    "static/css/main.bfc48e9b.chunk.css",
+    "static/js/main.e982c68f.chunk.js"
+  ]
+}
